@@ -1,0 +1,127 @@
+/* ***********************home background---container-1*************** */
+section>#container-1 {
+    width: 100%;
+    height: 550px;
+    /* background-color: #8B9EA5; */
+    display: flex;
+ 
+}
+
+section>#container-1>.info-box {
+    width: 690px;
+    height: 400px;
+    /* background-color: #c71212; */
+    margin-top: 150px;
+}
+
+section>#container-1>.info-box>p {
+    color: white;
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-shadow: 3px 3px black; */
+    margin-top: 40px;
+    font-family: cursive;
+}
+
+section>#container-1>.info-box>h2 {
+    color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+section>#container-1>.info-box>h2>b>span{
+    font-size: 30px;
+    color: yellow;
+    font-family: cursive;
+}
+
+/* ************animation part*********** */
+
+*.animation {
+    display: inline-block;
+
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 2s steps(22, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.animation>p {
+    color: white;
+    margin-left: 60%;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+
+.typed-out {
+    margin-left: 60%;
+}
+
+.typed-out>h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 1px 1px #8B9EA5;
+    font-family: cursive;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    word-spacing: 2px;
+    margin-left: 29%;
+}
+
+.info-box>.ani button {
+    margin-left: 32%;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #8B9EA5;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    border: 1px solid #f3f5f6;
+    border-radius: 30px;
+}
+.info-box>.ani button>a{
+    text-decoration: none;
+    color: #f7f9fa;
+}
+.info-box>.ani button>a:hover{
+    color: #000000;
+}
+
+.info-box>.ani button:hover {
+    color: rgb(6, 6, 6);
+    text-shadow: 1px 1px black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:840px) {
+    .bg{
+
+    }
+}

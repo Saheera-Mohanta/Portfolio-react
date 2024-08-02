@@ -1,0 +1,56 @@
+section>#footer {
+    width: 100%;
+    height: 300px;
+    background-color:rgb(9, 9, 9);
+    /* background-image: url('./assets/footerimg.jpg'); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+section>#footer>.information {
+    width: 55%;
+    height: 100%;
+    /* background-color: #010101; */
+    display: flex;
+    flex-direction: column;
+}
+
+section>#footer>.information>h1 {
+    color: white;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 30px;
+}
+section>#footer>.information>span>p{
+    color: rgb(182, 176, 176);
+}
+section>#footer>.information>span{
+    width: 100%;
+    height: 100px;
+}
+section>#footer>.information>.social-1>span{
+    display: flex;
+}
+ section>#footer>.information>.social-1>span>p{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+/*section>#footer>.information>.social-1>span>p:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    font-family: "Oleo Script", system-ui;
+    color: white;
+    
+    
+} */
+
